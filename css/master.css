@@ -126,7 +126,7 @@ nav ul li a:hover{
 
 #sidebar .widgetRow{
   width: 100%;
-  text-indent: .5rem;
+  /*text-indent: .5rem;*/
 }
 
 #sidebar h1.widgetTitle{
@@ -136,11 +136,12 @@ nav ul li a:hover{
   list-style-type: none;
   text-decoration: none;
   text-transform: uppercase;
+  text-indent: .5rem;
 }
 
 #sidebar .widgetRow li{
   list-style-type: none;
-  margin: 5px 0;
+  margin: .5rem;
 }
 
 #sidebar .widgetRow li a{
