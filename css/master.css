@@ -208,7 +208,7 @@ nav ul li a:hover{
 .vestiRow{
   width: 100%;
   overflow: hidden;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .vestiRow:last-child{
@@ -236,7 +236,6 @@ nav ul li a:hover{
 
 .vestiTitle small{
   color: grey;
-  font-size: 0.8rem;
 }
 
 .vestiTitle small b{
@@ -248,6 +247,10 @@ nav ul li a:hover{
   float: left;
   margin-right: 1rem;
   max-hight: 2px;
+}
+
+.vestiContent{
+  font-size: 1.2rem;
 }
 
 footer {
