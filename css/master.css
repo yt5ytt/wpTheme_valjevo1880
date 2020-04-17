@@ -1,0 +1,311 @@
+*{
+  margin: 0;
+  padding: 0;
+  transition: 1s ease;
+}
+
+body{
+  border-top: .5rem solid blue;
+  font-family: Arial;
+  -moz-animation: header 10s infinite;
+	-webkit-animation: header 10s infinite;
+	animation: header 10s infinite;
+}
+
+.wrapper{
+  width: 98%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+#topNavigation{
+  background-color: white;
+  line-height: 4rem;
+}
+
+nav{
+  text-align: right;
+}
+
+nav ul{
+  list-style-type: none;
+}
+
+nav ul li{
+  display: inline-block;
+  width: 10%;
+  text-align: center;
+}
+
+nav ul li a{
+  display: block;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: blue;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+nav ul li a:hover{
+  background-color: blue;
+  color: white;
+}
+
+#homeBanner{
+  background-color: rgba(0, 0, 0, .5);
+  padding-top: 50vh;
+  padding-bottom: 5vh;
+  overflow: hidden;
+}
+
+#homeBanner img.custom-logo{
+  border-radius: 50%;
+  max-height: 7rem;
+  max-width: 7rem;
+  line-height: 7rem;
+  float: left;
+}
+
+#homeBanner h1{
+  font-size: 3rem;
+  line-height: 7rem;
+  color: lightblue;
+  margin-left: 2rem;
+  text-shadow: 2px 2px 10px white;
+  float: left;
+}
+
+#pageBanner{
+  background-color: blue;
+  padding: 3vh 0;
+  overflow: hidden;
+}
+
+#pageBanner h1{
+  font-size: 2.5rem;
+  line-height: 5rem;
+  color: lightblue;
+  margin-left: 2rem;
+  text-shadow: 2px 2px 10px white;
+  float: left;
+}
+
+#pageBanner img.custom-logo{
+  float: left;
+  border-radius: 50%;
+  max-height: 5rem;
+  max-width: 5rem;
+}
+
+#container{
+  background-color: white;
+  overflow: hidden;
+  min-height: 50vh;
+  padding: 2rem 0;
+}
+
+#master{
+  width: 65%;
+  float: left;
+  text-align: justify;
+}
+
+#sidebar{
+  width: 32%;
+  float: right;
+}
+
+.pageTitle{
+  color: blue;
+  font-weight: bolder;
+  margin-bottom: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+#sidebar .widgetRow{
+  width: 100%;
+  text-indent: .5rem;
+}
+
+#sidebar h1.widgetTitle{
+  line-height: 3rem;
+  background-color: blue;
+  color: white;
+  list-style-type: none;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#sidebar .widgetRow li{
+  list-style-type: none;
+  margin: 5px 0;
+}
+
+#sidebar .widgetRow li a{
+  color: blue;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#sidebar .widgetRow li a:hover{
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+#sidebar .widgetRow p{
+  text-indent: 0;
+  text-align: center;
+}
+
+#sidebar .widgetRow p img{
+  margin: 5px auto;
+}
+
+.postHeader{
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.darkerPostHeader{
+  background-color: rgba(0, 0, 0, .5);
+  height: 100%;
+  width: 100%;
+}
+
+.postTitle{
+  text-align: center;
+  color: lightblue;
+  text-shadow: 2px 2px 10px white;
+  padding: 15rem 0 1rem 0;
+}
+
+.posted{
+  width: 20vh;
+  float: left;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 5px;
+  line-height: 1.5rem;
+  margin-right: 1rem;
+}
+
+.posted .red{
+  background-color: red;
+  color: white;
+}
+
+.posted .blue{
+  background-color: blue;
+  color: white;
+}
+
+.posted .red{
+  color: white;
+}
+
+.vestiRow{
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.vestiRow:last-child{
+  margin-bottom: 0;
+}
+
+.vestiTitle{
+  margin-bottom: 0.5rem;
+}
+
+.vestiTitle a{
+  color: blue;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.vestiTitle a:hover{
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+.vestiTitle h2:after{
+  text-decoration: none;
+}
+
+.vestiTitle small{
+  color: grey;
+  font-size: 0.8rem;
+}
+
+.vestiTitle small b{
+  color: black;
+  font-weight: bolder;
+}
+
+.vestiThumb{
+  float: left;
+  margin-right: 1rem;
+  max-hight: 2px;
+}
+
+footer {
+  color: white;
+  background-color: blue;
+  overflow: hidden;
+}
+
+.footerLinks{
+  padding: 2rem 0;
+  border-bottom: 1px dotted white;
+  overflow: hidden;
+}
+
+.footerColumn{
+  width: 27%;
+  float: left;
+}
+
+.footerMap{
+  width: 45%;
+  float: right;
+}
+
+.footerColumn h1{
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+
+.footerColumn a{
+  color: white;
+  text-decoration: none;
+  line-height: 1.4rem;
+  font-size: 1.1rem;
+}
+
+.footerColumn a:hover{
+  font-weight: bolder;
+}
+
+.footerMap iframe{
+  width: 100%;
+  height: 450px;
+}
+
+.copywrite{
+  line-height: 3rem;
+  text-align: center;
+  display: block;
+}
+
+.copywrite a{
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.copywrite a:hover{
+  font-weight: bolder;
+  text-decoration: underline;
+}
